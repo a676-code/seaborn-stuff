@@ -57,7 +57,7 @@ sns.set(color_codes=True)
 # sns.catplot(x = "Car Insurance Premiums ($)", y = "Losses incurred by insurance companies for collisions per insured driver ($)", data = df, kind="point", join = False)
 
 # Regression plots "best fits" #######################################
-# sns.regplot(data = df, x = "Car Insurance Premiums ($)", y = "Losses incurred by insurance companies for collisions per insured driver ($)")
+sns.regplot(data = df, x = "Car Insurance Premiums ($)", y = "Losses incurred by insurance companies for collisions per insured driver ($)")
 # sns.lmplot(data = df, x = "Losses incurred by insurance companies for collisions per insured driver ($)", y = "Car Insurance Premiums ($)")
 # sns.lmplot(data = df, x = "Losses incurred by insurance companies for collisions per insured driver ($)", y = "Car Insurance Premiums ($)", hue = "State") # doesn't print lines
 # sns.lmplot(data = df, x = "Losses incurred by insurance companies for collisions per insured driver ($)", y = "Car Insurance Premiums ($)", row = "State") # too dense
